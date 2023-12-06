@@ -335,6 +335,17 @@ footer .facebook {
     margin-left: 30px;
 }
 
+.conocenosimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.conocenosimg img {
+    width: 30%;
+}
+
 .mapa {
     margin: 0 auto;
     display: flex;
