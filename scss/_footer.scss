@@ -1,3 +1,5 @@
+$font-family: Arial, Helvetica, sans-serif;
+
 footer {
     display: flex;
     justify-content: center;
@@ -11,7 +13,7 @@ footer {
         justify-content: space-between;
         list-style-type: none;
         color: rgb(0, 0, 0);
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: $font-family;
         font-size: 1rem;
         font-weight: 500;
         margin: 0 2rem;
@@ -21,7 +23,8 @@ footer {
         li {
 
             a {
-                color: black
+                color: black;
+                
             }
         }
     }
