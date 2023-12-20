@@ -1,15 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@font-face {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  src: url();
-}
 header {
-  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-around;
   border-bottom: 5px solid rgb(0, 145, 126);
@@ -35,12 +25,16 @@ header nav ul li a {
   background-color: rgb(0, 0, 0);
   color: white;
   border-radius: 5%;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 200;
   margin: 0 2rem;
   text-decoration: none;
   padding: 0.1rem 0.5rem;
+  transition: 1s;
+}
+header nav ul li a:hover {
+  color: rgb(11, 160, 140);
 }
 
 main {
@@ -54,7 +48,7 @@ main .larambla {
   padding-top: 50px;
   color: rgb(0, 145, 126);
   background-color: rgb(0, 0, 0);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 60px;
   align-items: center;
@@ -64,12 +58,11 @@ main .slogan {
   justify-content: center;
   justify-items: center;
   padding-top: 40px;
-  font-size: 40px;
+  font-size: 2rem;
   color: rgb(0, 145, 126);
   background-color: rgb(0, 0, 0);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 60px;
   align-items: center;
 }
 main .carouselconteiner {
@@ -103,11 +96,9 @@ main .sponsors {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-main .sponsors {
   color: rgb(0, 145, 126);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
   padding-top: 50px;
 }
 main .sponsors-img {
@@ -118,11 +109,16 @@ main .sponsors-img {
 main .sponsors-img img {
   width: 60%;
 }
+main p {
+  color: white;
+  font-size: 1rem;
+}
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 footer ul {
   padding: 0;
@@ -132,15 +128,129 @@ footer ul {
   justify-content: space-between;
   list-style-type: none;
   color: rgb(0, 0, 0);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 2rem;
   text-decoration: none;
   padding: 0.1rem 0.5rem;
 }
 footer ul li a {
   color: black;
+  transition: 1s;
+}
+footer ul li a:hover {
+  color: rgb(11, 160, 140);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  src: url();
+}
+/*CONOCENOS*/
+main .lista-instalaciones li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin: 30px 30px 30px 50px;
+}
+main .lista-instalaciones li .conocenosimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+main h3 {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 25px;
+}
+main .conocenosimg img {
+  width: 31%;
+}
+main .mapa {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/*TORNEOS*/
+main section .torneo-parrafo {
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 30px 30px 30px;
+}
+main section .imagenes-torneo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .tabla-posiciones {
+  position: relative;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+/*ESCUELITA*/
+main .escuelita-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+main .escuelita-parrafo {
+  font-size: 1.5rem;
+}
+main .escuelita-img img {
+  margin-top: 50px;
+  width: 30%;
+}
+
+/*EVENTOS*/
+main .eventos-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .eventos-img img {
+  width: 45%;
+}
+main .videoevento {
+  display: flex;
+  justify-content: center;
+}
+main .parrafo-eventos {
+  margin: 50px 0px 50px 80px;
+  width: 80%;
+  font-size: 25px;
+  text-align: justify;
+}
+main .consultas-conteiner {
+  text-align: center;
+  width: 100%;
+  margin: 30px 0;
+}
+main .consultas-wttp {
+  font-size: 1.5rem;
+  margin: 15px auto;
+  color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=style.css.map */

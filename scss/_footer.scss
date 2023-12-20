@@ -4,6 +4,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 
     ul {
         padding: 0;
@@ -15,7 +16,7 @@ footer {
         color: rgb(0, 0, 0);
         font-family: $font-family;
         font-size: 1rem;
-        font-weight: 500;
+        font-weight: 600;
         margin: 0 2rem;
         text-decoration: none;
         padding: 0.1rem 0.5rem;
@@ -24,7 +25,12 @@ footer {
 
             a {
                 color: black;
-                
+                transition: 1s;
+
+                &:hover {
+                    color: rgb(11, 160, 140);
+                }
+
             }
         }
     }
