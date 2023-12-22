@@ -1,4 +1,4 @@
-$font-family: Arial, Helvetica, sans-serif;
+$font-family: "oswald";
 
 main {
     background-color: black;
@@ -10,7 +10,6 @@ main {
         justify-items: center;
         padding-top: 50px;
         color: rgb(0, 145, 126);
-        background-color: rgb(0, 0, 0);
         font-family: $font-family;
         font-weight: bolder;
         font-size: 60px;
@@ -44,6 +43,7 @@ main {
 
     .index-img img {
         width: 30%;
+
     }
 
     section video {
@@ -58,7 +58,7 @@ main {
 
     img {
         padding: auto;
-        border-radius: 2%;
+        border-radius: 3%;
         margin-left: 20px;
     }
 
@@ -71,7 +71,7 @@ main {
         font-family: $font-family;
         font-size: 2rem;
         padding-top: 50px;
-
+        font-weight: bolder;
     }
 
     .sponsors-img {

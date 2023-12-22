@@ -1,4 +1,4 @@
-$font-family: Arial, Helvetica, sans-serif;
+$font-family: "oswald";
 
 footer {
     display: flex;
@@ -26,7 +26,6 @@ footer {
             a {
                 color: black;
                 transition: 1s;
-
                 &:hover {
                     color: rgb(11, 160, 140);
                 }
